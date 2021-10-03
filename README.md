@@ -1,24 +1,10 @@
 # tictactoe
 
-## Project setup
-```
-npm install
-```
+Jeu du morpion, réalisé en VueJs.
+L'application permet de jouer contre une IA.
+Application disponible en ligne, au lien suivant : https://tictactoe.marion208.com/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+TicTacToe game, coded in VueJs.
+On this app, you play against an AI.
+App available online, at the following link : https://tictactoe.marion208.com/

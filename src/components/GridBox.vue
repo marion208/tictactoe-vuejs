@@ -1,0 +1,44 @@
+<template>
+    <div class="Box EmptyBox" @click="boxSelected">
+        <p :id="id_box"></p>
+    </div>
+</template>
+
+<script>
+export default {
+  name: 'GridBox',
+  props: {
+    id_box: String
+  }
+}
+</script>
+
+<style scoped>
+.Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 3em;
+}
+.EmptyBox:hover {
+    cursor: pointer;
+}
+.EmptyBox:active {
+    background-color: black;
+    color: white;
+}
+.FilledBox:hover {
+    cursor: default;
+}
+.FilledBox:active {
+    background-color: red;
+    color: white;
+}
+p {
+  margin: 0;
+}
+
+</style>
